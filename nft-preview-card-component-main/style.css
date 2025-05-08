@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  height: 100vh;
+  color: hsl(0, 0%, 100%);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.7rem;
+  box-shadow: 0 8px 32px hsla(217, 77%, 12%, 0.54);
+}
+.card-body {
+  max-width: 28rem;
+  border: 1px solid hsl(216, 50%, 16%);
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 32px hsl(217, 77%, 12%);
+}
+h1 {
+  margin-top: 2.2rem;
+}
+.card-intro {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: hsl(215, 51%, 70%);
+}
+.card-description {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding-bottom: 1.6rem;
+}
+.card-desc-02 {
+  justify-content: flex-end;
+}
+.card-desc-01,
+.card-desc-02 {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  gap: 0.7rem;
+  align-items: center;
+}
+.card-desc-01 p {
+  font-size: 1.25rem;
+  color: hsl(178, 100%, 50%);
+}
+.card-desc-02 p {
+  font-size: 1.14rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: hsl(215, 51%, 70%);
+}
+.footer-img {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.card-footer {
+  display: flex;
+  gap: 1.8rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+.footer-text {
+  font-size: 1.3rem;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+span {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Mobile Design: 375px */
+@media (max-width: 23.4em) {
+}
